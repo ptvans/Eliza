@@ -13,7 +13,7 @@
   --text-primary: #272727;       /* Dark charcoal */
   --text-secondary: #4a4a4a;     /* Medium gray */
   --text-light: #6b6b6b;         /* Light gray */
-  --background: #faf9f5;         /* Warm white */
+  --background: #f2f2e0;         /* Warm white */
   --background-alt: #f1efe8;     /* Soft cream */
   --background-card: #ffffff;    /* Card background */
   --white: #FFFFFF;
@@ -182,5 +182,27 @@ input, textarea, select {
 
   h2 {
     font-size: 1.75rem;
+  }
+}
+
+/* Decorative Accent Images */
+.decorative-accent {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.decorative-accent-img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .decorative-accent-img {
+    width: 140px;
+    height: 95px;
   }
 }

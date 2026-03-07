@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import pondWithLilyPads from '../../src/photos/eliza-images/pond-with-lily-pads.webp'
 import './page.css'
 
 export const metadata = {
@@ -116,6 +117,11 @@ function Rates() {
           </p>
         </div>
       </section>
+
+      {/* Decorative Image */}
+      <div className="decorative-accent">
+        <img src={pondWithLilyPads.src} alt="" role="presentation" className="decorative-accent-img" />
+      </div>
 
       {/* CTA */}
       <section className="rates-cta-section">

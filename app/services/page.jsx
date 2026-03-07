@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import lilyPadCloseUp from '../../src/photos/eliza-images/lily-pad-close-up.webp'
 import './page.css'
 
 export const metadata = {
@@ -114,6 +115,11 @@ function Services() {
           </ul>
         </div>
       </section>
+
+      {/* Decorative Image */}
+      <div className="decorative-accent">
+        <img src={lilyPadCloseUp.src} alt="" role="presentation" className="decorative-accent-img" />
+      </div>
 
       {/* Getting Started */}
       <section className="getting-started-section section-alt">

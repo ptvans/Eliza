@@ -41,7 +41,7 @@ function Home() {
             </div>
             <div className="hero-image-wrapper">
               <div className="hero-image-frame">
-                <img src={elizaPortrait.src} alt="Eliza Pedder, Licensed Marriage and Family Therapist" />
+                <img src={elizaOnBench.src} alt="Eliza Pedder, Licensed Marriage and Family Therapist" />
               </div>
             </div>
           </div>
@@ -282,7 +282,7 @@ function Home() {
             </div>
             <div className="about-preview-image">
               <div className="about-preview-image-frame">
-                <img src={elizaOnBench.src} alt="Eliza Pedder sitting on a garden bench" />
+                <img src={elizaPortrait.src} alt="Eliza Pedder sitting on a garden bench" />
               </div>
             </div>
           </div>
