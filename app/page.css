@@ -222,6 +222,11 @@
   transform: translateX(4px);
 }
 
+/* ===== Vimeo Section ===== */
+.vimeo-section {
+  padding: 2rem 0 6rem 0;
+}
+
 /* ===== Process Section ===== */
 .process-section {
   padding: 6rem 0;

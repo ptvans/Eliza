@@ -188,6 +188,13 @@ function Home() {
         </div>
       </section>
 
+      {/* Vimeo Section */}
+      <section className="vimeo-section">
+        <div className="container">
+          <iframe title="vimeo-player" src="https://player.vimeo.com/video/1140216553?h=ec1d95b9da" width="100%" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+        </div>
+      </section>
+
       {/* Process Section */}
       <section className="process-section section-alt">
         <div className="container">
